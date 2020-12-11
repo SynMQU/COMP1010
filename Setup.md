@@ -43,3 +43,19 @@ java version "15.0.1" 2020-10-20
 Java(TM) SE Runtime Environment (build 15.0.1+9-18)
 Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
 ```
+
+This is the correct output if the given installation is properly installed. Sometimes the system variables may still not be set up properly, so you should continue with the following:
+
+6. When you have your windows search bar open type type `env` and choose `Edit the system environment variables`. Once open click on the `Environment Variables…` button.
+
+<img src="Resources/Setup/EnvVarsSearch.png" width="600"/>
+
+<img src="Resources/Setup/SystemProperties.png" width="600"/>
+
+<img src="Resources/Setup/EnvironmentVariables.png" width="600"/>
+
+7. Edit the `User variables` section from the `Path` group and edit or add the line for Java to have the path of `C:\Program Files\Java\jdk-15.0.1\bin`.
+
+8. Edit or add the following entry in `System vairables` for `JAVA_HOME` with the path to the installed JDK as follows:
+
+<img src="Resources/Setup/JavaHomeVar.png" width="600"/>
