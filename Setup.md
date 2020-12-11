@@ -23,6 +23,23 @@ java version "1.8.0_XXX"
 ```
 
 1. Run the executable you downloaded for the Java JDK.
-2. Click 'Next' on this screen.
+2. Click `Next >` on this screen.
 
-<img src="Resources/Setup/JDKInstall01.png" alt="JDKInstall01" width="200"/>
+<img src="Resources/Setup/JDKInstall01.png" width="600"/>
+
+3. Make sure you're installing in the program files directory, if elsewhere record the directory or change it. Then clicking `Next`.
+
+<img src="Resources/Setup/JDKInstall02.png" width="600"/>
+
+4. Wait for the installation process to conclude and then press `Close`.
+
+<img src="Resources/Setup/JDKInstall03.png" width="600"/>
+
+5. Run the `java -version` command again and see what it outputs
+
+```
+C:\Users\Test>java -version
+java version "15.0.1" 2020-10-20
+Java(TM) SE Runtime Environment (build 15.0.1+9-18)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
+```
