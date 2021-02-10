@@ -82,6 +82,21 @@ Make sure you select the appropriate folder for your projects and set as default
 
 <img src="Resources/Setup/EclipseWorkspaceOptions.png" width="600"/>
 
+## **Running Eclipse**
+
+**If when you run the eclipse executeable and this error occurs:**
+
+<img src="Resources/Setup/MissingJVM.png" width="600"/>
+
+**Then go to your eclipse install folder and right click on the `eclipse.ini` file and hit "Edit" and add this section to the ***start*** of the file.**
+
+<img src="Resources/Setup/EclipseInstall.png" width="600"/>
+
+```
+-vm
+C:\Program Files\Java\jdk-15.0.1\bin\javaw.exe
+```
+
 When the actual window is open, go to the toolbar and select `Windows > Preferences`. Then from the list select `Java > Installed JREs`.
 
 <img src="Resources/Setup/EclipsePreferences.png" width="600"/>
