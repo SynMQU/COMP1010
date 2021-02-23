@@ -4,7 +4,7 @@ Unlike COMP1000, where you used the Processing IDE, 1010 focuses on the broader 
 
 ## **Installing Java**
 
-* [Oracle Java 15.0.1 JDK](https://download.oracle.com/otn-pub/java/jdk/15.0.1%2B9/51f4f36ad4ef43e39d0dfdbaf6549e32/jdk-15.0.1_windows-x64_bin.exe)
+* [Oracle Java 15.0.2 JDK](https://download.oracle.com/otn-pub/java/jdk/15.0.2%2B7/0d1cfde4252546c6931946de8db48ee2/jdk-15.0.2_windows-x64_bin.exe)
 * [Eclipse Installer](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exe&mirror_id=1051)
 
 First you should open Command Prompt or your equivalent terminal application and run `java -version`. Depending on the following output you should attempt the following:
@@ -15,7 +15,7 @@ C:\Users\Test>java -version
 operable program or batch file.
 ```
 
-If it doesn't come up with an error but instead displays information tied to an existing install that does not match the Java 15.0.1 you are trying to install then try the following:
+If it doesn't come up with an error but instead displays information tied to an existing install that does not match the Java 15.0.2 you are trying to install then try the following:
 
 ```
 java version "1.8.0_XXX"
@@ -39,9 +39,9 @@ java version "1.8.0_XXX"
 
 ```
 C:\Users\Test>java -version
-java version "15.0.1" 2020-10-20
-Java(TM) SE Runtime Environment (build 15.0.1+9-18)
-Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
+java version "15.0.2" 2020-10-20
+Java(TM) SE Runtime Environment (build 15.0.2+9-18)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.2+9-18, mixed mode, sharing)
 ```
 
 This is the correct output if the given installation is properly installed. Sometimes the system variables may still not be set up properly, so you should continue with the following:
@@ -54,7 +54,7 @@ This is the correct output if the given installation is properly installed. Some
 
 <img src="Resources/Setup/EnvironmentVariables.png" width="600"/>
 
-7. Edit the `User variables` section from the `Path` group and edit or add the line for Java to have the path of `C:\Program Files\Java\jdk-15.0.1\bin`.
+7. Edit the `User variables` section from the `Path` group and edit or add the line for Java to have the path of `C:\Program Files\Java\jdk-15.0.2\bin`.
 
 8. Edit or add the following entry in `System vairables` for `JAVA_HOME` with the path to the installed JDK as follows:
 
@@ -72,7 +72,7 @@ When on the next screen you should see an option for `Java 11+ VM`, this shows t
 
 <img src="Resources/Setup/EclipseJavaOptions.png" width="600"/>
 
-From the System category choose the JDK 15.0.1 option or find it through the `Browse...` option. Then choose your `Installation Folder`. Then choose the `INSTALL` option.
+From the System category choose the JDK 15.0.2 option or find it through the `Browse...` option. Then choose your `Installation Folder`. Then choose the `INSTALL` option.
 
 <img src="Resources/Setup/EclipseJDKOptions.png" width="600"/>
 
@@ -94,18 +94,18 @@ Make sure you select the appropriate folder for your projects and set as default
 
 ```
 -vm
-C:\Program Files\Java\jdk-15.0.1\bin\javaw.exe
+C:\Program Files\Java\jdk-15.0.2\bin\javaw.exe
 ```
 
 When the actual window is open, go to the toolbar and select `Windows > Preferences`. Then from the list select `Java > Installed JREs`.
 
 <img src="Resources/Setup/EclipsePreferences.png" width="600"/>
 
-Since our installed version of 15.0.1 is not in the list, go to `Add`, then select `Standard VM` from the options list. Then fill out the box for `JRE home` as the path to the JDK `C:\Program Files\Java\jdk-15.0.1`. The other fields should fill automatically, then hit `Finish`.
+Since our installed version of 15.0.2 is not in the list, go to `Add`, then select `Standard VM` from the options list. Then fill out the box for `JRE home` as the path to the JDK `C:\Program Files\Java\jdk-15.0.2`. The other fields should fill automatically, then hit `Finish`.
 
 <img src="Resources/Setup/EclipseAddJRE.png" width="600"/>
 
-Select the box next to the JDK 15.0.1 instance and choose `Apply and Close`. Additionally you can remove all other instances of JREs unless specifically installed for another project.
+Select the box next to the JDK 15.0.2 instance and choose `Apply and Close`. Additionally you can remove all other instances of JREs unless specifically installed for another project.
 
 <img src="Resources/Setup/EclipseSelectedJRE.png" width="600"/>
 
