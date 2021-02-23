@@ -1,5 +1,7 @@
 # **Java Installation Debugging**
 
+**If you see that there is a reference to Java 15.0.1 it was made when that was the most recent version, just replace that with Java 15.0.2 in the images, I will update them later**
+
 Unlike COMP1000, where you used the Processing IDE, 1010 focuses on the broader Java language, Processing uses it's own branch of Java integrated into the program itself so no other setup is required. Although you may encounter some issues when trying to setup your development environment with either Eclipse or Visual Studio Code. These instructions were made for Windows, I will add notes for MacOS later, but with Eclipse the processes are pretty much the exact same.
 
 ## **Installing Java**
