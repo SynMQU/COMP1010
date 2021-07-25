@@ -152,6 +152,7 @@ If you want to add the JUnit library to your own projects like used in the pract
 1. Right-click on the project and select `Properties`
 2. Select the option for `Java Build Path`.
 3. Click on the `Libraries` tab and then the `Modulepath` option to enable the buttons.
+	- If this gives an error, click on `Classpath` and do the following steps from here.
 
 <img src="Resources/Setup/AddModulepath.png" width="600"/>
 
